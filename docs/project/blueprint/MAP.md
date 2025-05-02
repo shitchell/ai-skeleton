@@ -14,7 +14,7 @@ GOAL: Ensure accurate input validation
                     └── TEST: emailValidator.spec.js
 ```
 
-> Every node should be traceable back to its parent(s). If a node is undefined or unclear, resolve or mark it as a `flex_point`.
+> Every node should be traceable back to its parent(s). If a node is undefined or unclear, resolve or mark it as a [flex_point](./FLEX_POINTS.md).
 
 ## 🧩 Current Graph
 

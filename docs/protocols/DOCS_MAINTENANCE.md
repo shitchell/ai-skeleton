@@ -22,20 +22,27 @@ This file describes how documentation is maintained, pruned, and migrated across
 ---
 
 ## 📚 What Goes Where
-- **PROJECT_SPECS.md** → long-term identity and intent
-- **DEVELOPMENT_LOG.md** → chronological scratchpad of session plans and outputs
-- **SCRATCH.md** → temporary holding area for miscellaneous items that need later attention
-- **LESSONS_LEARNED.md** → postmortems and generalized takeaways
-- **DESIGN_DECISIONS.md** → architecture commitments and rationale
-- **IMPLEMENTATION_PLAN.md** → evolving plan for what's coming next
+- [PROJECT_SPECS.md](../project/identity/PROJECT_SPECS.md) → long-term identity and intent
+- [DEVELOPMENT_LOG.md](../project/workspace/DEVELOPMENT_LOG.md) → chronological scratchpad of session plans and outputs
+- [SCRATCH.md](../project/workspace/SCRATCH.md) → temporary holding area for miscellaneous items that need later attention
+- [LESSONS_LEARNED.md](../project/workspace/LESSONS_LEARNED.md) → postmortems and generalized takeaways
+- [DESIGN_DECISIONS.md](../project/identity/DESIGN_DECISIONS.md) → architecture commitments and rationale
+- [IMPLEMENTATION_PLAN.md](../project/workspace/IMPLEMENTATION_PLAN.md) → evolving plan for what's coming next
 
 ---
 
 ## 🗃 Archive Strategy
 Move stale or unused materials to a folder like `docs/archived/` to avoid loss while improving active context clarity.
 
-- Log the archival under `DEVELOPMENT_LOG.md`
-- Ensure the reasons for archival are documented under `LESSONS_LEARNED.md` and `DESIGN_DECISIONS.md`
+- Log the archival under [DEVELOPMENT_LOG.md](../project/workspace/DEVELOPMENT_LOG.md)
+- Ensure the reasons for archival are documented under [LESSONS_LEARNED.md](../project/workspace/LESSONS_LEARNED.md) and [DESIGN_DECISIONS.md](../project/identity/DESIGN_DECISIONS.md)
+
+---
+
+## 📊 Documentation Quality
+- Use [VALIDATION.md](../VALIDATION.md) for linting, link checking, and formatting guidelines
+- Run `lychee docs/` periodically to check for broken links
+- Follow markdown best practices outlined in [VALIDATION.md](../VALIDATION.md)
 
 ---
 
@@ -44,3 +51,4 @@ Move stale or unused materials to a folder like `docs/archived/` to avoid loss w
 
 
 > 🔍 Check for gaps or rot in your dependency map using [MAP.md](../project/blueprint/MAP.md) and run [COHERENCE_CHECK.md](./COHERENCE_CHECK.md) for structural clarity.
+> For system-wide documentation integrity, periodically run [SYSTEM_AUDIT.md](./SYSTEM_AUDIT.md).

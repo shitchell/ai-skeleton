@@ -40,7 +40,7 @@ Potential resolution: [Initial thoughts if available]
 
 <!-- Example:
 ## Potential misunderstanding about validation requirements
-Reference: DEVELOPMENT_LOG.md (2023-05-15)
+Reference: [DEVELOPMENT_LOG.md](./DEVELOPMENT_LOG.md) (2023-05-15)
 Issue: Team seems to have different interpretations of what "validated" means in context of user data
 Potential resolution: Create explicit validation criteria document
 -->
@@ -48,4 +48,4 @@ Potential resolution: Create explicit validation criteria document
 ---
 
 ## 🔄 Navigation
-- Return to [CYCLE_DEVELOPMENT_PROCESS.md](../persistent/CYCLE_DEVELOPMENT_PROCESS.md)
+- Return to [CYCLE_DEVELOPMENT_PROCESS.md](../../protocols/CYCLE_DEVELOPMENT_PROCESS.md)

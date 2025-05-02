@@ -1,7 +1,7 @@
 # HUMAN_AI_COLLABORATION.md
 
 ## 🤝 Purpose
-This document outlines how human and AI agents can work together to maximize clarity, momentum, and alignment toward the goals defined in `PROJECT_SPECS.md`.
+This document outlines how human and AI agents can work together to maximize clarity, momentum, and alignment toward the goals defined in [PROJECT_SPECS.md](../project/identity/PROJECT_SPECS.md).
 
 ---
 
@@ -35,16 +35,16 @@ Humans and AIs are not interchangeable. Each has strengths and weaknesses. The g
 |----------------------------------|----------------|-------|
 | Architecture + Design Intent     | Human          | Claude may assist with diagrams or rationalization |
 | Code Generation                  | AI             | Prefer declarative + composable patterns |
-| Refactoring + Simplification     | AI (with review) | Use `LESSONS_LEARNED.md` to capture rationale |
+| Refactoring + Simplification     | AI (with review) | Use [LESSONS_LEARNED.md](../project/workspace/LESSONS_LEARNED.md) to capture rationale |
 | Test Writing                     | AI             | Include edge cases and manual test descriptions |
 | Error Diagnosis                  | Both           | AI can trace logic; humans validate assumptions |
 | Documentation                    | AI drafts / Human prunes | Claude generates; humans condense or correct |
-| Decision Review + Philosophy     | Human          | Ensure continued alignment with `PROJECT_SPECS.md` |
+| Decision Review + Philosophy     | Human          | Ensure continued alignment with [PROJECT_SPECS.md](../project/identity/PROJECT_SPECS.md) |
 
 ---
 
 ### 🔁 Iteration Loop
-1. Human initiates a plan (via `DEVELOPMENT_LOG.md` or issue)
+1. Human initiates a plan (via [DEVELOPMENT_LOG.md](../project/workspace/DEVELOPMENT_LOG.md) or issue)
 2. AI proposes implementation
 3. Human reviews direction and constraints
 4. AI develops code + docs + tests
@@ -55,9 +55,9 @@ Humans and AIs are not interchangeable. Each has strengths and weaknesses. The g
 
 ## 🧠 Human-AI Interface Norms
 - Use `<!-- clarify -->` or `<!-- prune-needed -->` comments to indicate questions or cleanup points
-- AI should emit **navigation notes** at the end of every output (e.g. "continue in `DEVELOPMENT_PROCESS.md`")
-- Human should check `PROJECT_SPECS.md` if vision, values, or constraints are in question
-- AI should reference `LESSONS_LEARNED.md` and `DESIGN_DECISIONS.md` when similar patterns reappear
+- AI should emit **navigation notes** at the end of every output (e.g. "continue in [CYCLE_DEVELOPMENT_PROCESS.md](../protocols/CYCLE_DEVELOPMENT_PROCESS.md)")
+- Human should check [PROJECT_SPECS.md](../project/identity/PROJECT_SPECS.md) if vision, values, or constraints are in question
+- AI should reference [LESSONS_LEARNED.md](../project/workspace/LESSONS_LEARNED.md) and [DESIGN_DECISIONS.md](../project/identity/DESIGN_DECISIONS.md) when similar patterns reappear
 
 ---
 
@@ -72,11 +72,16 @@ Humans and AIs are not interchangeable. Each has strengths and weaknesses. The g
 ---
 
 ## 🧭 When in Doubt
-- Check `PROJECT_SPECS.md` — are we still aligned?
-- Check `CYCLE_DEVELOPMENT_PROCESS.md` — did we skip a step?
-- Log confusion in `DEVELOPMENT_LOG.md` — future clarity begins with traceability
+- Check [PROJECT_SPECS.md](../project/identity/PROJECT_SPECS.md) — are we still aligned?
+- Check [CYCLE_DEVELOPMENT_PROCESS.md](../protocols/CYCLE_DEVELOPMENT_PROCESS.md) — did we skip a step?
+- Log confusion in [DEVELOPMENT_LOG.md](../project/workspace/DEVELOPMENT_LOG.md) — future clarity begins with traceability
 
 ---
 
 **The best collaboration isn't faster — it's clearer.**
 We build better together by playing to our strengths.
+
+---
+
+## 📄 References
+- [HUMAN_AI_COLLABORATION.md](../standards/HUMAN_AI_COLLABORATION.md)

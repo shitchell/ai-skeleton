@@ -15,7 +15,7 @@ Each entry must include:
 
 ## Example Entry
 
-### `USER_REQUIREMENTS → Accessibility Support`
+### [USER_REQUIREMENTS.md](./USER_REQUIREMENTS.md) → Accessibility Support
 
 - **Why undefined:** Not needed for MVP, deferred until post-launch.
 - **Possible branches:** Full keyboard nav, screen reader labels, ARIA roles.

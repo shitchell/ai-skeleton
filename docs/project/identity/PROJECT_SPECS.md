@@ -56,11 +56,11 @@ Include rationale for why these are tolerated.
 ---
 
 ## ❓ Undefined Fracture Points
-Ambiguities or potential architectural landmines that we haven’t solved yet:
+Ambiguities or potential architectural landmines that we haven't solved yet:
 - [e.g., What happens if multiple plugins validate the same file in conflicting ways?]
 - [e.g., Are async validators allowed to mutate shared state?]
 
-These should **ideally be reviewed regularly** and may be migrated to another document (like `LESSONS_LEARNED.md`) as they're resolved.
+These should **ideally be reviewed regularly** and may be migrated to another document (like [LESSONS_LEARNED.md](../workspace/LESSONS_LEARNED.md)) as they're resolved.
 
 ---
 
@@ -76,8 +76,8 @@ These should **ideally be reviewed regularly** and may be migrated to another do
 ---
 
 ### 🔄 Workflow Navigation
-- Proceed to [CYCLE_DEVELOPMENT_PROCESS.md](./CYCLE_DEVELOPMENT_PROCESS.md) to begin iteration cycles.
-- See [CYCLE_END_OF_FEATURE.md](./CYCLE_END_OF_FEATURE.md) and [CYCLE_END_OF_PROJECT.md](./CYCLE_END_OF_PROJECT.md) for end-cycle rituals.
+- Proceed to [CYCLE_DEVELOPMENT_PROCESS.md](../../protocols/CYCLE_DEVELOPMENT_PROCESS.md) to begin iteration cycles.
+- See [CYCLE_END_OF_FEATURE.md](../../protocols/CYCLE_END_OF_FEATURE.md) and [CYCLE_END_OF_PROJECT.md](../../protocols/CYCLE_END_OF_PROJECT.md) for end-cycle rituals.
 
 
 > See [MAP.md](../blueprint/MAP.md) for how this spec translates into system structure.

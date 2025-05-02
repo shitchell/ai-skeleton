@@ -7,7 +7,7 @@ This guide helps wrap up a project in a clean, structured, and insight-rich way.
 
 ### ✅ 1. Final Audit
 - All features complete?
-- All high-level goals from `PROJECT_SPECS.md` achieved?
+- All high-level goals from [PROJECT_SPECS.md](../project/identity/PROJECT_SPECS.md) achieved?
 - All tests (unit/integration/UI) pass?
 - All edge cases handled or documented?
 
@@ -16,7 +16,7 @@ This guide helps wrap up a project in a clean, structured, and insight-rich way.
 ### 🧱 2. Documentation Consolidation
 - Review all docs marked with `<!-- prune-needed -->`
 - Collapse temporary logs into long-term summaries
-- Move finalized insights to `DESIGN_DECISIONS.md`, `LESSONS_LEARNED.md`, or `PROJECT_SPECS.md`
+- Move finalized insights to [DESIGN_DECISIONS.md](../project/identity/DESIGN_DECISIONS.md), [LESSONS_LEARNED.md](../project/workspace/LESSONS_LEARNED.md), or [PROJECT_SPECS.md](../project/identity/PROJECT_SPECS.md)
 - Archive outdated diagrams, plans, or scratch files
 
 ---
@@ -29,7 +29,7 @@ This guide helps wrap up a project in a clean, structured, and insight-rich way.
 - How could these issues have been avoided?
 - Are there any potential improvements to our cycles, processes, and patterns?
 
-Record this reflection in `REFLECTIONS.md`.
+Record this reflection in [REFLECTIONS.md](../project/workspace/REFLECTIONS.md).
 
 ---
 

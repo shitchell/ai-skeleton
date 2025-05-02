@@ -87,14 +87,13 @@ class CartItem extends Purchasable implements Serializable {
 ---
 
 ## 🔀 When to Blend Paradigms
-It’s okay to blend as long as:
+It's okay to blend as long as:
 - You keep **one dominant paradigm per file or module**
 - You document the style boundaries (e.g. "plugin system uses factory")
-- You don’t cross-contaminate (e.g. don't mix event emitters and factories inside one class)
+- You don't cross-contaminate (e.g. don't mix event emitters and factories inside one class)
 
 ---
 
 ## 🔄 Navigation
-- Back to process loop → [CYCLE_DEVELOPMENT_PROCESS.md](../persistent/CYCLE_DEVELOPMENT_PROCESS.md)
-- Org-level design reference → `ARCHITECTURE_PATTERNS.md`, `PROJECT_SPECS.md`, etc.
-
+- Back to process loop → [CYCLE_DEVELOPMENT_PROCESS.md](../protocols/CYCLE_DEVELOPMENT_PROCESS.md)
+- Org-level design reference → [ARCHITECTURE_PATTERNS.md](./ARCHITECTURE_PATTERNS.md), [PROJECT_SPECS.md](../project/identity/PROJECT_SPECS.md), etc.

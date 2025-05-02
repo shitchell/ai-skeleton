@@ -1,4 +1,3 @@
-
 # COHERENCE_CHECK.md
 
 ## 🧭 Purpose
@@ -23,12 +22,12 @@ This check should be run:
 - Update a test?
 - Revise a requirement?
 
-Write this clearly in `DEVELOPMENT_LOG.md` or explain to the AI agent.
+Write this clearly in [DEVELOPMENT_LOG.md](../project/workspace/DEVELOPMENT_LOG.md) or explain to the AI agent.
 
 ---
 
 ### Step 2: Trace Dependencies (Up the Chain)
-Using `MAP.md`, determine what this change depends on:
+Using [MAP.md](../project/blueprint/MAP.md), determine what this change depends on:
 - Which **goal(s)** does it serve?
 - What **use case(s)** or **user story** supports it?
 - Which **requirement** does it fulfill?
@@ -41,9 +40,9 @@ If any parent node is **undefined, unclear, or contradictory**, go to Step 4.
 ### Step 3: Check for Fractures
 Look for:
 - Misalignments between architecture and goals
-- Missing links in the `MAP.md`
+- Missing links in the [MAP.md](../project/blueprint/MAP.md)
 - Incomplete use cases or undefined flex points
-- Ambiguities in `PROJECT_SPECS.md`, `USER_REQUIREMENTS.md`, or `COMPONENT_ARCHITECTURE.md`
+- Ambiguities in [PROJECT_SPECS.md](../project/identity/PROJECT_SPECS.md), [USER_REQUIREMENTS.md](../project/blueprint/USER_REQUIREMENTS.md), or [COMPONENT_ARCHITECTURE.md](../project/blueprint/COMPONENT_ARCHITECTURE.md)
 
 If the structure supports your intent: ✅ Proceed to implementation.
 
@@ -54,7 +53,7 @@ If not: 🔍 Continue.
 ### Step 4: Resolve or Define Flex Point
 If something is missing, do one of the following:
 - **Resolve** it: define the missing requirement, story, or component
-- **Flex it**: add it to `FLEX_POINTS.md` with the following:
+- **Flex it**: add it to [FLEX_POINTS.md](../project/blueprint/FLEX_POINTS.md) with the following:
   1. Why we chose to leave it undefined
   2. Possible coherent branches
   3. Possible incoherent outcomes
@@ -67,11 +66,11 @@ Then return to Step 3.
 
 ### Step 5: Confirm Downward Impact
 Ensure any change you make:
-- Is reflected in `MAP.md`
-- Doesn’t break coherence with any child nodes
+- Is reflected in [MAP.md](../project/blueprint/MAP.md)
+- Doesn't break coherence with any child nodes
 - Is reflected in the affected component, test, or logic
 
-Update diagrams or `DESIGN_DECISIONS.md` if this change alters existing patterns.
+Update diagrams or [DESIGN_DECISIONS.md](../project/identity/DESIGN_DECISIONS.md) if this change alters existing patterns.
 
 ---
 
@@ -79,7 +78,7 @@ Update diagrams or `DESIGN_DECISIONS.md` if this change alters existing patterns
 A **gap** is:
 - A node in the project map with no definition or known contradictions
 - A missing user behavior, requirement, or tech decision
-- A feature or path whose purpose can’t be traced up to a goal
+- A feature or path whose purpose can't be traced up to a goal
 
 Gaps **must** be resolved or documented before implementation.
 
@@ -96,15 +95,17 @@ Gaps **must** be resolved or documented before implementation.
 ---
 
 ## 📄 References
-- `project/blueprint/MAP.md`
-- `project/blueprint/FLEX_POINTS.md`
-- `project/identity/PROJECT_SPECS.md`
-- `project/identity/DESIGN_DECISIONS.md`
-- `project/blueprint/COMPONENT_ARCHITECTURE.md`
-- `project/workspace/DEVELOPMENT_LOG.md`
+- [MAP.md](../project/blueprint/MAP.md)
+- [FLEX_POINTS.md](../project/blueprint/FLEX_POINTS.md)
+- [PROJECT_SPECS.md](../project/identity/PROJECT_SPECS.md)
+- [DESIGN_DECISIONS.md](../project/identity/DESIGN_DECISIONS.md)
+- [COMPONENT_ARCHITECTURE.md](../project/blueprint/COMPONENT_ARCHITECTURE.md)
+- [DEVELOPMENT_LOG.md](../project/workspace/DEVELOPMENT_LOG.md)
+- [SYSTEM_AUDIT.md](./SYSTEM_AUDIT.md)
 
 ---
 
 ## 🔄 Navigation
 - Begin planning: [SETUP_PLANNING.md](./SETUP_PLANNING.md)
 - Proceed to daily dev loop: [CYCLE_DEVELOPMENT_PROCESS.md](./CYCLE_DEVELOPMENT_PROCESS.md)
+- For system-wide integrity checks: [SYSTEM_AUDIT.md](./SYSTEM_AUDIT.md)

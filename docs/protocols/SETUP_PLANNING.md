@@ -25,14 +25,14 @@ The human and AI should work through the following prompts together. As answers 
 The human reviews all generated files. If something feels off:
 
 * Ask the AI to rephrase, revise, or redesign
-* Capture potential risks or confusion in `SCRATCH.md`
+* Capture potential risks or confusion in [SCRATCH.md](../project/workspace/SCRATCH.md)
 
 ### Step 4: Sign Off and Begin Iteration
 
 Once the initial setup is accepted by both agents:
 
 * Lock in the structure
-* Begin development using `cycle_development_process.md`
+* Begin development using [CYCLE_DEVELOPMENT_PROCESS.md](./CYCLE_DEVELOPMENT_PROCESS.md)
 
 ---
 
@@ -44,40 +44,40 @@ Once the initial setup is accepted by both agents:
 
 ### 2. Goals and Constraints
 
-> Define the project’s core values, priorities, and hard limitations.
-> Populate → `PROJECT_SPECS.md`
+> Define the project's core values, priorities, and hard limitations.
+> Populate → [PROJECT_SPECS.md](../project/identity/PROJECT_SPECS.md)
 
 ### 3. High-Level Architecture
 
 > Sketch an ideal layout: components, flows, domains, state models.
-> Populate → `COMPONENT_ARCHITECTURE.md`
+> Populate → [COMPONENT_ARCHITECTURE.md](../project/blueprint/COMPONENT_ARCHITECTURE.md)
 
 ### 4. Implementation Plan
 
 > Define initial features, dependencies, or tech stack decisions.
-> Populate → `IMPLEMENTATION_PLAN.md`
+> Populate → [IMPLEMENTATION_PLAN.md](../project/workspace/IMPLEMENTATION_PLAN.md)
 
 ### 5. Dev Philosophy & Division of Labor
 
 > Clarify how AI and Human will collaborate.
-> Populate → `HUMAN_AI_COLLABORATION.md`
+> Populate → [HUMAN_AI_COLLABORATION.md](../standards/HUMAN_AI_COLLABORATION.md)
 
 ### 6. Coding Strategy
 
 > Discuss paradigms, file structures, naming standards.
-> Reference → `AI_GUIDANCE.md`, `ARCHITECTURE_PATTERNS.md`
+> Reference → [AI_GUIDANCE.md](../standards/AI_GUIDANCE.md), [ARCHITECTURE_PATTERNS.md](../standards/ARCHITECTURE_PATTERNS.md)
 
 ---
 
 ## 📄 Expected Output Files
 
-* `project/identity/PROJECT_SPECS.md`
-* `project/identity/HUMAN_AI_COLLABORATION.md`
-* `project/identity/DESIGN_DECISIONS.md`
-* `project/workspace/IMPLEMENTATION_PLAN.md`
-* `project/workspace/COMPONENT_ARCHITECTURE.md`
-* `project/workspace/DEVELOPMENT_LOG.md`
-* `project/workspace/SCRATCH.md`
+* [PROJECT_SPECS.md](../project/identity/PROJECT_SPECS.md)
+* [HUMAN_AI_COLLABORATION.md](../standards/HUMAN_AI_COLLABORATION.md)
+* [DESIGN_DECISIONS.md](../project/identity/DESIGN_DECISIONS.md)
+* [IMPLEMENTATION_PLAN.md](../project/workspace/IMPLEMENTATION_PLAN.md)
+* [COMPONENT_ARCHITECTURE.md](../project/blueprint/COMPONENT_ARCHITECTURE.md)
+* [DEVELOPMENT_LOG.md](../project/workspace/DEVELOPMENT_LOG.md)
+* [SCRATCH.md](../project/workspace/SCRATCH.md)
 
 ---
 
@@ -85,13 +85,13 @@ Once the initial setup is accepted by both agents:
 
 * All prompts answered
 * All docs generated and reviewed
-* Human signs off with "Initial Setup Approved" in `DEVELOPMENT_LOG.md`
+* Human signs off with "Initial Setup Approved" in [DEVELOPMENT_LOG.md](../project/workspace/DEVELOPMENT_LOG.md)
 
 ---
 
 ## 🔄 Navigation
 
-* After setup, begin [cycle\_development\_process.md](../protocols/CYCLE_DEVELOPMENT_PROCESS.md)
+* After setup, begin [CYCLE_DEVELOPMENT_PROCESS.md](./CYCLE_DEVELOPMENT_PROCESS.md)
 
 
 > 🔁 For guidance on maintaining consistency across the project structure, see [COHERENCE_CHECK.md](./COHERENCE_CHECK.md) and [MAP.md](../project/blueprint/MAP.md).
