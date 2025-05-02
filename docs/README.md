@@ -74,3 +74,10 @@ Finalized, deprecated, or historical artifacts.
 ---
 
 🧠 **Reminder**: This system is designed to be AI-friendly, minimizing context loss while retaining high signal-to-noise clarity across all project stages. Don’t hesitate to emit `<!-- prune-needed -->` in any doc that needs cleanup.
+
+
+---
+
+## 🧠 Design Protocols
+- [COHERENCE_CHECK.md](./protocols/COHERENCE_CHECK.md): Ensures all project work aligns with defined goals and architecture.
+- [MAP.md](./project/blueprint/MAP.md): Traceable system map linking goals to components.

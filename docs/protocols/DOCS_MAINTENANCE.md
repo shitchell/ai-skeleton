@@ -41,3 +41,6 @@ Move stale or unused materials to a folder like `docs/archived/` to avoid loss w
 
 ## 🔄 Navigation
 - Return to [CYCLE_DEVELOPMENT_PROCESS.md](./CYCLE_DEVELOPMENT_PROCESS.md)
+
+
+> 🔍 Check for gaps or rot in your dependency map using [MAP.md](../project/blueprint/MAP.md) and run [COHERENCE_CHECK.md](./COHERENCE_CHECK.md) for structural clarity.

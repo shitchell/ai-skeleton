@@ -58,3 +58,6 @@ Record this reflection in `REFLECTIONS.md`.
 ### 🔄 Navigation
 - If more work remains, return to [CYCLE_DEVELOPMENT_PROCESS.md](./CYCLE_DEVELOPMENT_PROCESS.md)
 - If the project is complete, continue to [CYCLE_END_OF_PROJECT.md](./CYCLE_END_OF_PROJECT.md)
+
+
+> 📌 Update your [MAP.md](../project/blueprint/MAP.md) and confirm system-wide consistency via [COHERENCE_CHECK.md](./COHERENCE_CHECK.md).

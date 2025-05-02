@@ -92,3 +92,6 @@ Once the initial setup is accepted by both agents:
 ## 🔄 Navigation
 
 * After setup, begin [cycle\_development\_process.md](../protocols/CYCLE_DEVELOPMENT_PROCESS.md)
+
+
+> 🔁 For guidance on maintaining consistency across the project structure, see [COHERENCE_CHECK.md](./COHERENCE_CHECK.md) and [MAP.md](../project/blueprint/MAP.md).

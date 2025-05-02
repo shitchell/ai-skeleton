@@ -49,3 +49,6 @@ Record this reflection in `REFLECTIONS.md`.
 ### 🔄 Navigation
 - For continued development, go back to [CYCLE_DEVELOPMENT_PROCESS.md](./CYCLE_DEVELOPMENT_PROCESS.md)
 - Otherwise, you're done. 🎉
+
+
+> 🧩 Final review should include [COHERENCE_CHECK.md](./COHERENCE_CHECK.md) and updating the project [MAP.md](../project/blueprint/MAP.md).

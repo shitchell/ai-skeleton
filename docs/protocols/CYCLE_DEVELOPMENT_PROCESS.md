@@ -66,3 +66,6 @@ This is the core loop used during daily AI-assisted development. If you're begin
 ### 🔄 Navigation
 - Return to [PROJECT_SPECS.md](./PROJECT_SPECS.md)
 - If feature is complete, go to [CYCLE_END_OF_FEATURE.md](./CYCLE_END_OF_FEATURE.md)
+
+
+> 🧠 Before implementation, consult [MAP.md](../project/blueprint/MAP.md) and follow [COHERENCE_CHECK.md](./COHERENCE_CHECK.md) to ensure alignment.

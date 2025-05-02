@@ -78,3 +78,6 @@ These should **ideally be reviewed regularly** and may be migrated to another do
 ### 🔄 Workflow Navigation
 - Proceed to [CYCLE_DEVELOPMENT_PROCESS.md](./CYCLE_DEVELOPMENT_PROCESS.md) to begin iteration cycles.
 - See [CYCLE_END_OF_FEATURE.md](./CYCLE_END_OF_FEATURE.md) and [CYCLE_END_OF_PROJECT.md](./CYCLE_END_OF_PROJECT.md) for end-cycle rituals.
+
+
+> See [MAP.md](../blueprint/MAP.md) for how this spec translates into system structure.
