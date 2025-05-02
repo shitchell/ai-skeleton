@@ -39,4 +39,4 @@ Move stale or unused materials to a folder like `docs/archived/` to avoid loss w
 ---
 
 ## 🔄 Navigation
-- Return to [DEVELOPMENT_PROCESS.md](./DEVELOPMENT_PROCESS.md)
+- Return to [cycle_development_process.md](./cycle_development_process.md)
