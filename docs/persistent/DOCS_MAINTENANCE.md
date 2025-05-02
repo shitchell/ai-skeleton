@@ -24,9 +24,10 @@ This file describes how documentation is maintained, pruned, and migrated across
 ## 📚 What Goes Where
 - **PROJECT_SPECS.md** → long-term identity and intent
 - **DEVELOPMENT_LOG.md** → chronological scratchpad of session plans and outputs
+- **SCRATCH.md** → temporary holding area for miscellaneous items that need later attention
 - **LESSONS_LEARNED.md** → postmortems and generalized takeaways
 - **DESIGN_DECISIONS.md** → architecture commitments and rationale
-- **IMPLEMENTATION_PLAN.md** → evolving plan for what’s coming next
+- **IMPLEMENTATION_PLAN.md** → evolving plan for what's coming next
 
 ---
 

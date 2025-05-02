@@ -14,6 +14,11 @@ When a feature has been completed (meaning: all scoped work is complete and test
 
 ### 🧽 2. Prune & Consolidate
 - Review `DEVELOPMENT_LOG.md` and prune any redundant or resolved items
+- Review `SCRATCH.md` and determine which items:
+  - Need immediate resolution before transitioning
+  - Can be incorporated into existing documentation
+  - Should remain in SCRATCH.md for future consideration
+  - Require creating new documentation patterns
 - Mark stale sections in other docs with `<!-- prune-needed -->`
 - Condense notes into updated docs (e.g. update `IMPLEMENTATION_PLAN.md` or `COMPONENT_ARCHITECTURE.md`)
 

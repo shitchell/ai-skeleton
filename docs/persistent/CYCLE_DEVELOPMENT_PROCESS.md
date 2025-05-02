@@ -35,7 +35,9 @@ This is the core loop used during daily AI-assisted development. If you're begin
 
 ### 🧹 5. Diagnose and Refine
 - Identify and log error types
-- Trace root causes, document insights in `LESSONS_LEARNED.md`
+- Trace root causes, document insights in `DEVELOPMENT_LOG.md`
+- If insights are complete and ready for permanent documentation, add to `LESSONS_LEARNED.md`
+- If insights need further reflection or don't fit elsewhere, add to `SCRATCH.md` with appropriate references
 - Refactor for clarity, simplicity, and resilience
 
 ---
