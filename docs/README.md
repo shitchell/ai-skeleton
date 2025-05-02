@@ -14,23 +14,23 @@ Documentation is split into three main categories:
 ## 🧭 `persistent/`
 Slow-changing docs that define the **identity**, **values**, and **process** of the project.
 
-- `project_specs.md` — Goals, values, philosophy, constraints, and fracture points.
-- `cycle_development_process.md` — Daily development loop used throughout active work.
-- `cycle_end_of_feature.md` — Checklist for pruning and reflection at the end of a feature.
-- `cycle_end_of_project.md` — Wrap-up flow and final project consolidation.
-- `docs_maintenance.md` — Rules for pruning, archiving, and doc clarity.
-- `design_decisions.md` — Key architectural decisions and their rationale.
-- `human_ai_collaboration.md` — How human-AI collaboration is expected to function.
+- `PROJECT_SPECS.md` — Goals, values, philosophy, constraints, and fracture points.
+- `CYCLE_DEVELOPMENT_PROCESS.md` — Daily development loop used throughout active work.
+- `CYCLE_END_OF_FEATURE.md` — Checklist for pruning and reflection at the end of a feature.
+- `CYCLE_END_OF_PROJECT.md` — Wrap-up flow and final project consolidation.
+- `DOCS_MAINTENANCE.md` — Rules for pruning, archiving, and doc clarity.
+- `DESIGN_DECISIONS.md` — Key architectural decisions and their rationale.
+- `HUMAN_AI_COLLABORATION.md` — How human-AI collaboration is expected to function.
 
 ---
 
 ## 🔄 `volatile/`
 Frequently updated documents that capture **ongoing development**.
 
-- `development_log.md` — Session-by-session dev entries, decisions, and context.
-- `lessons_learned.md` — Collected mistakes and insights from the journey.
-- `implementation_plan.md` — Outline of upcoming or WIP features and priorities.
-- `component_architecture.md` — In-progress structural blueprints and dependencies.
+- `DEVELOPMENT_LOG.md` — Session-by-session dev entries, decisions, and context.
+- `LESSONS_LEARNED.md` — Collected mistakes and insights from the journey.
+- `IMPLEMENTATION_PLAN.md` — Outline of upcoming or WIP features and priorities.
+- `COMPONENT_ARCHITECTURE.md` — In-progress structural blueprints and dependencies.
 - `README.md` — Onboarding info for contributors or fresh context for the AI.
 
 ---
@@ -47,11 +47,11 @@ Finalized, deprecated, or historical artifacts.
 
 | Situation                        | Start With                            |
 |----------------------------------|----------------------------------------|
-| You're planning your next task   | `cycle_development_process.md`         |
-| You just finished a feature      | `cycle_end_of_feature.md`              |
-| You're wrapping the whole project| `cycle_end_of_project.md`              |
-| You’re new to the project        | `project_specs.md` → `README.md`       |
-| Something feels wrong/confusing  | `docs_maintenance.md` or `lessons_learned.md` |
+| You're planning your next task   | `CYCLE_DEVELOPMENT_PROCESS.md`         |
+| You just finished a feature      | `CYCLE_END_OF_FEATURE.md`              |
+| You're wrapping the whole project| `CYCLE_END_OF_PROJECT.md`              |
+| You’re new to the project        | `PROJECT_SPECS.md` → `README.md`       |
+| Something feels wrong/confusing  | `DOCS_MAINTENANCE.md` or `LESSONS_LEARNED.md` |
 
 ---
 

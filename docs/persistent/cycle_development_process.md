@@ -57,10 +57,10 @@ This is the core loop used during daily AI-assisted development. If you're begin
 ### 📘 8. Close the Loop
 - Update progress at the bottom of `DEVELOPMENT_LOG.md`
 - If feature work is incomplete, return to step 1
-- If feature is complete, continue to [end_of_feature.md](./end_of_feature.md)
+- If feature is complete, continue to [END_OF_FEATURE.md](./END_OF_FEATURE.md)
 
 ---
 
 ### 🔄 Navigation
-- Return to [project_specs.md](./project_specs.md)
-- If feature is complete, go to [end_of_feature.md](./end_of_feature.md)
+- Return to [PROJECT_SPECS.md](./PROJECT_SPECS.md)
+- If feature is complete, go to [END_OF_FEATURE.md](./END_OF_FEATURE.md)

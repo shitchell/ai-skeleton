@@ -95,6 +95,6 @@ It’s okay to blend as long as:
 ---
 
 ## 🔄 Navigation
-- Back to process loop → [cycle_development_process.md](../persistent/cycle_development_process.md)
-- Org-level design reference → `architecture_patterns.md`, `project_specs.md`, etc.
+- Back to process loop → [CYCLE_DEVELOPMENT_PROCESS.md](../persistent/CYCLE_DEVELOPMENT_PROCESS.md)
+- Org-level design reference → `ARCHITECTURE_PATTERNS.md`, `PROJECT_SPECS.md`, etc.
 
