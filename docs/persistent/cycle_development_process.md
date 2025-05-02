@@ -1,3 +1,66 @@
-# cycle_development_process.md
+# DEVELOPMENT_PROCESS.md
 
-(See main repo version for contents.)
+## 🔁 Iteration Cycle
+This is the core loop used during daily AI-assisted development. If you're beginning work, start here.
+
+---
+
+### 🧭 1. Initialize
+- Review `PROJECT_SPECS.md` to reground in purpose and constraints
+- Review `DEVELOPMENT_LOG.md` for last session’s status
+- Review open `TODO`s or unresolved questions
+
+---
+
+### 🧠 2. Plan
+- Choose up to 3 components or tasks to implement
+- Prioritize based on dependency order and current focus
+- Log your plan at the top of `DEVELOPMENT_LOG.md`
+
+---
+
+### 🛠️ 3. Implement
+- Write modular code with composability and testability in mind
+- Add type hints, logging, and inline docs as needed
+- Justify design deviations directly in `DEVELOPMENT_LOG.md`
+
+---
+
+### 🧪 4. Test
+- Write minimal viable unit/integration/UI tests
+- Include clear test case names and expectations
+- Record results in `DEVELOPMENT_LOG.md`
+
+---
+
+### 🧹 5. Diagnose and Refine
+- Identify and log error types
+- Trace root causes, document insights in `LESSONS_LEARNED.md`
+- Refactor for clarity, simplicity, and resilience
+
+---
+
+### 🧽 6. Prune
+- Tag any outdated, redundant, or unclear content with: `<!-- prune-needed -->`
+- Add pruning notes to `DEVELOPMENT_LOG.md`
+- Schedule review of large/messy documents if needed in `TODO.md`
+
+---
+
+### ✅ 7. Review and Decide
+- Does the result match project values and spirit?
+- Does this implementation introduce new constraints or flex points?
+- Do any new undefined fracture points need to be logged?
+
+---
+
+### 📘 8. Close the Loop
+- Update progress at the bottom of `DEVELOPMENT_LOG.md`
+- If feature work is incomplete, return to step 1
+- If feature is complete, continue to [end_of_feature.md](./end_of_feature.md)
+
+---
+
+### 🔄 Navigation
+- Return to [project_specs.md](./project_specs.md)
+- If feature is complete, go to [end_of_feature.md](./end_of_feature.md)
