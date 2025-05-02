@@ -1,0 +1,5 @@
+@startuml
+class ComponentA
+class ComponentB
+ComponentA --> ComponentB : depends on
+@enduml
