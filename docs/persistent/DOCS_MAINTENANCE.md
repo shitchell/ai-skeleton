@@ -15,7 +15,7 @@ This file describes how documentation is maintained, pruned, and migrated across
 ---
 
 ## 🪵 Prune Triggers
-- After each feature completion → run through [END_OF_FEATURE.md](./END_OF_FEATURE.md)
+- After each feature completion → run through [CYCLE_END_OF_FEATURE.md](./CYCLE_END_OF_FEATURE.md)
 - After a full build passes → prune stale notes, diagrams, exploratory logs
 - Before starting a new major feature or rewrite
 
