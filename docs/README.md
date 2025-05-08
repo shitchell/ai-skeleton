@@ -8,7 +8,7 @@ Documentation is split into three main categories:
 
 <!-- Add a section for our development protocols here -->
 ## 🏗️ `protocols/`
-Rarely changing documents that define the **protocols** and **guidelines** for development — how we solve plan and solve problems.
+Rarely changing documents that define the **protocols** and **guidelines** for development — how we plan and solve problems.
 - [CYCLE_DEVELOPMENT_PROCESS.md](./protocols/CYCLE_DEVELOPMENT_PROCESS.md) — Daily development loop used throughout active work.
 - [CYCLE_END_OF_FEATURE.md](./protocols/CYCLE_END_OF_FEATURE.md) — Checklist for pruning and reflection at the end of a feature.
 - [CYCLE_END_OF_PROJECT.md](./protocols/CYCLE_END_OF_PROJECT.md) — Wrap-up flow and final project consolidation.
